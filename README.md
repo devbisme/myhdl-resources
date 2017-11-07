@@ -3,7 +3,7 @@
 > A curated list of tutorials, projects, and third-party tools to be used in conjunction with the
 open source [MyHDL](http://myhdl.org/) hardware design language.
 
-*Please read the [contribution guidelines](contributing.md) before contributing.*
+*You can add your own stuff to this! Please read the [contribution guidelines](contributing.md) to see how.*
 
 
 
