@@ -21,7 +21,7 @@ open source [MyHDL](http://myhdl.org/) hardware design language.
 ## Tutorials
 
 - [MyHDL Reference Manual](http://docs.myhdl.org/en/stable/) -
-The go-to place for the MyHDL language.
+The go-to document for the MyHDL language.
 
 - [Hello World](http://myhdl.org/docs/examples/helloworld.html) -
 Shows how a demonstrator design that was originally coded in VHDL can be done in MyHDL.
@@ -36,7 +36,7 @@ a classic sorting function.
 - [PygMyHDL Tutorials](https://github.com/xesscorp/pygmyhdl#getting-started) -
 A sequence of Jupyter notebooks that use PygMyHDL (MyHDL + simple wrapper)
 to describe, compile, download and run several digital logic circuits on the
-low-cost iCEstick FPGA
+low-cost iCEstick FPGA board.
 
 
 ## Projects
