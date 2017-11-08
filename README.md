@@ -53,6 +53,11 @@ Describes how to produce an echo on a stream of digitized audio samples.
 A [companion article](https://www.fpgarelated.com/showarticle/41.php) adds further details
 concerning the actual implementation with an AIC23 codec chip.
 
+- [Simple Co-Simulation Example](https://gist.github.com/j-marjanovic/1cd36b9da44280e890b6) -
+This code snippet uses three modules to present the absolute minimum for a
+co-simulation of Verilog code and MyHDL code.
+
+
 ## Projects
 
 - [Johnson Counter](http://myhdl.org/docs/examples/jc2.html) -
@@ -87,6 +92,33 @@ See [this](https://www.dsprelated.com/showcode/16.php) for additional explanatio
 - [AIC23b Audio Codec Interface](https://bitbucket.org/cfelton/examples/src/tip/mycores/aic23?at=default) -
 An interface for configuring the [AIC23 codec](http://www.ti.com/product/TLV320AIC23B) and sampling/generating audio signals.
 
+- [myhdl_lib](https://github.com/nkavaldj/myhdl_lib) -
+A MyHDL library of generic design components, e.g. memory, fifo, multiplexor, de-multiplexor, arbiter, etc. All components are tested with Icarus Verilog simulator.
+
+- [rhea](https://github.com/cfelton/rhea) -
+A collection of HDL cores along with a small set of utilities to augment the MyHDL types and functions as well as FPGA build automation tools.
+
+- [KalmanFilter](https://github.com/josyb/KalmanFilter) - 
+A simple, low-resource usage Kalman Filter using shared resources.
+
+- [myhdl_simple_uart](https://github.com/andrecp/myhdl_simple_uart) - 
+Implements a simple UART in MyHDL and generates the VHDL files. It has been tested in a DE2-115 board.
+
+- [Spiking Neuron](https://github.com/CodeReclaimers/myhdl-experiments/blob/master/izhikevitch/neuron.py) -
+Implements a spiking neuron based on the model described in
+Izhikevich, E. M., "Simple Model of Spiking Neurons"
+IEEE TRANSACTIONS ON NEURAL NETWORKS, VOL. 14, NO. 6, NOVEMBER 2003.
+
+- [Algol RISCV CPU core](https://github.com/AngelTerrones/Algol) -
+A CPU core that implements the RISC-V RV32IM Instruction Set.
+
+- [alt.hdl](https://github.com/cfelton/alt.hdl) -
+A collection of complete and partial design examples built using MyHDL, bsv, and chisel.
+
+- [PyMIPS](https://github.com/mgaitan/pymips) -
+A formal implementation of a MIPS processor as described in *Computer Organization and Design* by Hennessy/Patterson.
+
+
 ## Third-Party Tools
 
 - [myhdlpeek](https://github.com/xesscorp/myhdlpeek) - 
@@ -101,6 +133,9 @@ A tool for merging the MyHDL workflow with Vivado.
 
 - [MyHDLXilinxUnisimLib](https://bitbucket.org/nico-dev/myhdl_xilinx_unisim_lib/) - 
 MyHldXilinxUnisimLib lets you use Xilinx Unisim components within a MyHDL project.
+
+- [Synthia](https://github.com/nturley/synthia) -
+A simple IDE that uses MyHDL, yosys, and arachne-pnr to target the ICEStick.
 
 
 ## License
