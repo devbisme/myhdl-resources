@@ -57,6 +57,9 @@ concerning the actual implementation with an AIC23 codec chip.
 This code snippet uses three modules to present the absolute minimum for a
 co-simulation of Verilog code and MyHDL code.
 
+- [OO Design in MyHDL](https://gist.github.com/josyb/2e43c9ad7ffa772d52dfd66cb660dc4a) -
+An example of using object-oriented design principles with MyHDL.
+
 
 ## Projects
 
@@ -118,6 +121,12 @@ A collection of complete and partial design examples built using MyHDL, bsv, and
 - [PyMIPS](https://github.com/mgaitan/pymips) -
 A formal implementation of a MIPS processor as described in *Computer Organization and Design* by Hennessy/Patterson.
 
+- [RISC-V](https://github.com/jck/riscv) -
+A RISC-V implementation and tools.
+
+- [MyBlaze](https://github.com/wware/myblaze) -
+a synthesizable clone of the MicroBlaze Soft Processor.
+
 
 ## Third-Party Tools
 
@@ -136,6 +145,10 @@ MyHldXilinxUnisimLib lets you use Xilinx Unisim components within a MyHDL projec
 
 - [Synthia](https://github.com/nturley/synthia) -
 A simple IDE that uses MyHDL, yosys, and arachne-pnr to target the ICEStick.
+
+- [pyFDA](https://github.com/chipmuenk/pyFDA) -
+A GUI-based tool for analysing and designing discrete time filters.
+May be using MyHDL to generate HDL implementations of the filters.
 
 
 ## License
