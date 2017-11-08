@@ -38,6 +38,8 @@ A sequence of Jupyter notebooks that use PygMyHDL (MyHDL + simple wrapper)
 to describe, compile, download and run several digital logic circuits on the
 low-cost iCEstick FPGA board.
 
+- [MyHDL Cheat Sheet](https://bitbucket.org/nico-dev/myhdl_cheat_sheet/src) -
+An abstract for the MyHDL language keywords.
 
 ## Projects
 
