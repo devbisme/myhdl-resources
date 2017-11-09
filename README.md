@@ -60,6 +60,9 @@ co-simulation of Verilog code and MyHDL code.
 - [OO Design in MyHDL](https://gist.github.com/josyb/2e43c9ad7ffa772d52dfd66cb660dc4a) -
 An example of using object-oriented design principles with MyHDL.
 
+- [FPGA Designs With MyHDL](http://fpga-designs-with-myhdl.readthedocs.io/en/latest/index.html) -
+A reimagining of [these VHDL/Verilog designs](http://pythondsp.readthedocs.io/en/latest/pythondsp/toc.html#fpga-designs-with-verilog-and-systemverilog) in MyHDL.
+
 
 ## Projects
 
