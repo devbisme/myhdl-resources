@@ -130,6 +130,15 @@ A RISC-V implementation and tools.
 - [MyBlaze](https://github.com/wware/myblaze) -
 a synthesizable clone of the MicroBlaze Soft Processor.
 
+- [Skip-Gram Model for Word Embeddings](https://github.com/gw0/rs-skip-gram-in-myhdl) -
+Implementation in MyHDL of a neural network using the skip-gram model for natural language processing.
+
+- [VGA Bouncing Ball](https://github.com/on1arf/myhdl-vga_bounceball) -
+A circuit that displays a bouncing ball on a VGA monitor.
+
+- [Whitebox](https://github.com/testaco/whitebox) -
+A cross between a smartphone and a software defined radio with the DSP section described using MyHDL.
+
 
 ## Third-Party Tools
 
