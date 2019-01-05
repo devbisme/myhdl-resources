@@ -139,6 +139,9 @@ A circuit that displays a bouncing ball on a VGA monitor.
 - [Whitebox](https://github.com/testaco/whitebox) -
 A cross between a smartphone and a software defined radio with the DSP section described using MyHDL.
 
+- [HDL-deflate](https://github.com/tomtor/HDL-deflate) -
+Implementation of deflate (de)compress RFC 1950/1951.
+
 
 ## Third-Party Tools
 
