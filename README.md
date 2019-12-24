@@ -142,6 +142,21 @@ A cross between a smartphone and a software defined radio with the DSP section d
 - [HDL-deflate](https://github.com/tomtor/HDL-deflate) -
 Implementation of deflate (de)compress RFC 1950/1951.
 
+- [Kea](https://github.com/SmartAcoustics/Kea) -
+Some useful HDL blocks, mainly an AXI Lite register subsystem, along with supporting AXI Lite and Stream interfaces and associated BFMs.
+
+- [Verilog PCIexpressComponents](https://github.com/mongrelgem/Verilog-PCIexpress-Components) -
+A collection of PCI express related components including a full MyHDL & Verilog testbench with intelligent bus cosimulation endpoints.
+
+- [myBFSK](https://github.com/Hypotalamus/myBFSK) -
+Example of receiver for continuous phase binary frequency shift keying signals with modulation index less then 1.0 written in myHDL.
+
+- [CS3339-MIPS32](https://github.com/grantslape/CS3339-MIPS32) -
+This project simulates a MIPS-like 5 stage pipeline through co-simulation between Python and Icarus Verilog. The machine is implemented with a 32-bit architecture through the myHDL library.
+
+- [1pCPU](https://github.com/pcornier/1pCPU) -
+A small 8bit CPU written with MyHDL in a Jupyter notebook.
+
 
 ## Third-Party Tools
 
@@ -164,6 +179,18 @@ A simple IDE that uses MyHDL, yosys, and arachne-pnr to target the ICEStick.
 - [pyFDA](https://github.com/chipmuenk/pyFDA) -
 A GUI-based tool for analysing and designing discrete time filters.
 May be using MyHDL to generate HDL implementations of the filters.
+
+- [Veriutils](https://github.com/hgomersall/Veriutils) -
+A collection of utilities for verification of HDL designs created using MyHDL.
+
+- [MyHDL Numeric](https://github.com/jmgc/myhdl-numeric) -
+MyHDL-numeric is an enhancement of the MyHDL package which provides support for multiple VHDL entities (MEP110) and fixed-point numbers (MEP111).
+
+- [myhdl2dot](https://github.com/harboleas/myhdl2dot) -
+Generates a flowgraph for a MyHDL design using graphviz.
+
+- [VSCode MyHDLTools](https://github.com/rbnprdy/vscode-myhdltools) -
+Provides some helpful code generators for using MyHDL for Verilog Cosimulation.
 
 
 ## License
