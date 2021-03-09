@@ -157,6 +157,8 @@ This project simulates a MIPS-like 5 stage pipeline through co-simulation betwee
 - [1pCPU](https://github.com/pcornier/1pCPU) -
 A small 8bit CPU written with MyHDL in a Jupyter notebook.
 
+- [jupyosys](https://hackaday.io/project/171216-jupyosys) -
+MyHDL extensions to support direct RTL generation and synthesis through yosys 
 
 ## Third-Party Tools
 
@@ -191,6 +193,9 @@ Generates a flowgraph for a MyHDL design using graphviz.
 
 - [VSCode MyHDLTools](https://github.com/rbnprdy/vscode-myhdltools) -
 Provides some helpful code generators for using MyHDL for Verilog Cosimulation.
+
+- [HDL playground](https://github.com/hackfin/hdlplayground) -
+Jupyter notebook environment for MyHDL/VHDL/Verilog synthesis from the Browser, based on the jupyosys project (Docker container or Google Binder)
 
 
 ## License
