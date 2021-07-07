@@ -11,9 +11,12 @@ open source [MyHDL](http://myhdl.org/) hardware design language.
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Tutorials](#tutorials)
-- [Projects](#projects)
-- [Third-party Tools](#third-party-tools)
+- [MyHDL Resources](#myhdl-resources)
+  - [Table of Contents](#table-of-contents)
+  - [Tutorials](#tutorials)
+  - [Projects](#projects)
+  - [Third-Party Tools](#third-party-tools)
+  - [License](#license)
 
 <!-- /TOC -->
 
@@ -33,7 +36,7 @@ Explains basic MyHDL usage with small, widely-known circuits.
 Presents possibilities for describing hardware structures in MyHDL, focusing on
 a classic sorting function.
 
-- [PygMyHDL Tutorials](https://github.com/xesscorp/pygmyhdl#getting-started) -
+- [PygMyHDL Tutorials](https://github.com/devbisme/pygmyhdl#getting-started) -
 A sequence of Jupyter notebooks that use PygMyHDL (MyHDL + simple wrapper)
 to describe, compile, download and run several digital logic circuits on the
 low-cost iCEstick FPGA board.
@@ -78,11 +81,11 @@ A simple PWM along with several test setups.
 - [Cordic-Based Sine Computer](http://myhdl.org/docs/examples/sinecomp/) -
 Presents the design of a sine and cosine computer.
 
-- [Hardware Sorters](https://github.com/xesscorp/Hardware-Sorters) -
+- [Hardware Sorters](https://github.com/devbisme/Hardware-Sorters) -
 A [Jupyter](jupyter.org) notebook describing, simulating, and comparing 
 two hardware-based circuits for sorting a list of numbers.
 
-- [Exploring Random Number Generators with MyHDL](https://github.com/xesscorp/CAT-Board/blob/master/tests/RNG_with_MyHDL.ipynb) -
+- [Exploring Random Number Generators with MyHDL](https://github.com/devbisme/CAT-Board/blob/master/tests/RNG_with_MyHDL.ipynb) -
 Illustrates the advantages of using MyHDL and Python in designing and testing a random number generator (RNG).
 
 - [Simple IIR Filter](https://bitbucket.org/cfelton/examples/src/tip/siir/) -
@@ -142,10 +145,10 @@ A cross between a smartphone and a software defined radio with the DSP section d
 
 ## Third-Party Tools
 
-- [myhdlpeek](https://github.com/xesscorp/myhdlpeek) - 
+- [myhdlpeek](https://github.com/devbisme/myhdlpeek) - 
 A Python package that lets you monitor and display signal waveforms from your MyHDL digital design in a Jupyter notebook.
 
-- [PygMyHDL](https://github.com/xesscorp/pygmyhdl) - 
+- [PygMyHDL](https://github.com/devbisme/pygmyhdl) - 
 A Python package that places a thin-wrapper around MyHDL to make it a bit easier for
 beginners to get started.
 
@@ -167,4 +170,4 @@ May be using MyHDL to generate HDL implementations of the filters.
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [XESS Corp.](http://xess.com) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [Dave Vandenbout](devb@xess.com) has waived all copyright and related or neighboring rights to this work.
